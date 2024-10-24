@@ -16,6 +16,24 @@
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+.columna{
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+}
+.columna1{
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+    margin-top: -4px;
+}
 .social-media {
     display: flex; /* Aplica Flexbox para alinear el contenido en línea */
     align-items: center; /* Alinea verticalmente la imagen y el texto */
@@ -90,7 +108,7 @@ h6 {
     letter-spacing: 0;
     font-weight: normal;
     position: relative;
-    padding: 0 0 10px 0;
+    padding: 0 0 8px 0;
     font-weight: normal;
     line-height: 120% !important;
     color: #1f1f1f;
@@ -106,7 +124,7 @@ h2 {
 }
 
 h3 {
-    font-size: 18px
+    font-size: 14px
 }
 
 h4 {
