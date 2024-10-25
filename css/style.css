@@ -16,6 +16,20 @@
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
+.top-header {
+    background-color: white; /* Color de fondo original */
+    transition: background-color 0.3s; /* Suaviza el cambio de color */
+}
+
+.fixed-menu {
+    position: fixed; /* Fija el menú en la parte superior */
+    top: 0; /* Se alinea al borde superior de la ventana */
+    left: 0;
+    width: 100%; /* Asegura que ocupe todo el ancho de la ventana */
+    background-color: rgba(255, 255, 255, 0.9); /* Color de fondo al fijarse */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
 .social-media {
     display: flex; /* Aplica Flexbox para alinear el contenido en línea */
     align-items: center; /* Alinea verticalmente la imagen y el texto */
