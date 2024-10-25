@@ -22,6 +22,20 @@
 			$('.top-header').removeClass('fixed-menu');
 		}
 	});
+	$(document).ready(function() {
+        // Seleccionamos el botón "Más" y el botón "Pandemia"
+        const moreButton = $('.navbar-nav .more-item');
+        const pandemicButton = $('.navbar-nav a[href="Pandemia.html"]');
+        
+        // Al hacer clic en el botón "Pandemia"
+        pandemicButton.on('click', function() {
+            // Cambiar el color de fondo del botón "Más" a naranja
+            moreButton.css('background-color', 'orange');
+            
+            // Eliminar el color de fondo de los otros botones
+            $('.navbar-nav .nav-link').not(moreButton).css('background-color', '');
+        });
+    });
 	
 	/* ..............................................
     Gallery
