@@ -16,6 +16,20 @@
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
+.sofia-silva {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.sofia-silva {
+    text-align: center; /* Centra el texto */
+}
+
+.sofia-silva .pic-wrapper {
+    display: inline-block; /* Asegura que la imagen se centre */
+}
+
 .top-header {
     background-color: white; /* Color de fondo original */
     transition: background-color 0.3s; /* Suaviza el cambio de color */
@@ -32,8 +46,9 @@
 
 .social-media {
     display: flex; /* Aplica Flexbox para alinear el contenido en línea */
-    align-items: center; /* Alinea verticalmente la imagen y el texto */
-    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center;/* Alinea verticalmente la imagen y el texto */
+    flex-direction: column;
+    gap: 20px;
 }
 
 .social-media img {
