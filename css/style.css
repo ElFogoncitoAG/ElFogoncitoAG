@@ -16,6 +16,19 @@
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
+#nuestras-variedades {
+    margin-left: 215px;
+}
+.centered-image-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.centered-image-container img {
+    max-width: 100%; /* Evita que la imagen se desborde */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
 .sofia-silva {
     display: flex;
     justify-content: center;
@@ -403,11 +416,8 @@ button:focus{
 
 .about-section-box{
 	padding: 70px 0px;
-	background: #ffffff url(../images/about-bg.jpg) no-repeat bottom center;
+	background: #ffffff url(../images/fondo.jpg) no-repeat bottom center;
 	background-size: cover;
-}
-.about-section-box .img-fluid{
-	box-shadow: 20px 20px 0px #d65106;
 }
 .inner-column{
 	text-align: left;
@@ -442,7 +452,7 @@ button:focus{
 
 
 .qt-background{
-	background: url(../images/qt-bg.jpg) no-repeat;
+	background: url(../images/fritas.jpg) no-repeat;
 	background-size: cover;
 	padding: 100px 0;
 	background-attachment: fixed;
@@ -702,7 +712,7 @@ button:focus{
 	padding-bottom: 0px;
 }
 .bg-f{
-	background-image: url("../images/footer-bg.jpg");
+	background-image: url("../images/footer.jpg");
 	background-attachment: scroll;
 	background-clip: initial;
 	background-color: rgba(0, 0, 0, 0);
