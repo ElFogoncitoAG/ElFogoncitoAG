@@ -16,6 +16,50 @@
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
+.brand-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.brand-wrapper img {
+    margin-right: 10px;
+}
+
+.texto {
+    font-size: 10;
+    font-weight: bold;
+    margin: 0;
+}
+.horas{
+    background-color: #fad7a0;
+}
+.fila2{
+    background-color: #f5b041;
+}
+.fila1{
+    background-color: #f8c471;
+}
+.theader{
+    text-align: center;
+    background-color: #d65106;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #010101;
+
+}
+th,td{
+    border: 1px solid;
+    padding: 8px;
+    text-align: center;
+}
+th,td{
+    color:#333;
+}
 .centered-image-container {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
@@ -863,7 +907,7 @@ button:focus{
 
 .page-breadcrumb {
     padding: 250px 0 150px;
-    background: url(../images/all-bg.jpg) no-repeat;
+    background: url(../images/bg-back.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 0 0;
