@@ -16,6 +16,9 @@
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
+.centerMap{
+    text-align: center;
+}
 .brand-wrapper {
     display: flex;
     align-items: center;
@@ -535,6 +538,9 @@ button:focus{
 /*------------------------------------------------------------------
     Menu
 -------------------------------------------------------------------*/
+.reduce{ 
+    width: 90%;
+}
 .row:last-child {
     justify-content: center; /* Centra solo la última fila */
 }
@@ -929,7 +935,7 @@ button:focus{
 
 .page-breadcrumb {
     padding: 250px 0 150px;
-    background: url(../images/bg-back.jpg) no-repeat;
+    background: url(../images/0045pra.png) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 0 0;
